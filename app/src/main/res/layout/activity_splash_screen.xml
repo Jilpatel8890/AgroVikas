@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#b0f7d7"
+        android:src="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/preparedByTextView"
+        android:layout_width="112dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-84dp"
+        android:text="Prepared by"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/preparedByTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_below="@id/preparedByTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-30dp"
+        android:text="Tech Mania"
+        android:textColor="@android:color/black"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

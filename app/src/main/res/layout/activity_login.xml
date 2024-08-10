@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="203dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="AgroVikas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Login To Your Account"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/email_8_svgrepo_com"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Email Id"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:drawableLeft="@drawable/lock_svgrepo_com"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/emailtext"
+        app:layout_constraintStart_toStartOf="@+id/emailtext"
+        app:layout_constraintTop_toBottomOf="@+id/emailtext" />
+
+    <TextView
+        android:id="@+id/ortext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="or"
+        app:layout_constraintEnd_toEndOf="@+id/passwordtext"
+        app:layout_constraintStart_toStartOf="@+id/passwordtext"
+        app:layout_constraintTop_toBottomOf="@+id/passwordtext" />
+
+    <TextView
+        android:id="@+id/continuetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Continue With"
+        app:layout_constraintEnd_toEndOf="@+id/passwordtext"
+        app:layout_constraintStart_toStartOf="@+id/passwordtext"
+        app:layout_constraintTop_toBottomOf="@+id/ortext" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/googlebutton"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blackbutton"
+        android:drawableLeft="@drawable/google_icon"
+        android:drawablePadding="0dp"
+        android:text="Google"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continuetext" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbutton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/whitebutton"
+        android:paddingLeft="20dp"
+        android:text="Login "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/googlebutton" />
+
+    <TextView
+        android:id="@+id/donttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Don't have account?"
+        android:textColor="@color/material_dynamic_neutral_variant20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
