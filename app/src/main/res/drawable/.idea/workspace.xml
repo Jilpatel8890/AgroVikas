@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="399594f0-0f8c-4909-92e0-506a73de0b07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/register/Rotavator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/register/activities/Harvestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/register/activities/Tractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/register/activities/equipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/register/activities/home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/register/model/item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart_large_svgrepo_com.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmer.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_equipment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_harvestor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_rotavator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_tractor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/list_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/register/activities/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/register/activities/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/register/activities/profilepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/register/activities/profilepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/register/activities/register.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/register/activities/register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/register/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/register/model/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_profilepage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_profilepage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Jilpatel8890"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jilpatel8890/AgroVikas.git",
+    "accountId": "558bb7bb-2304-41ca-bb92-ebbc258306ce"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2kUgk6sZKsRAuxmBVYPyqWydY18" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jalpa/AndroidStudioProjects/register/app/src/main/res/drawable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="399594f0-0f8c-4909-92e0-506a73de0b07" name="Changes" comment="" />
+      <created>1723343709091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723343709091</updated>
+    </task>
+    <servers />
+  </component>
+</project>

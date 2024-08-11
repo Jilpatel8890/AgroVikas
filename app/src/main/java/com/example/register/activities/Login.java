@@ -74,7 +74,7 @@ public class Login extends AppCompatActivity {
             if(task.isSuccessful()){
                 FirebaseUser user = auth.getCurrentUser();
                 Toast.makeText(Login.this , "Login Successful!" , Toast.LENGTH_SHORT).show();
-                updateUI();
+                startActivity(new Intent(Login.this , home.class));
             }
             else{
                 Toast.makeText(Login.this , "Login failed!" , Toast.LENGTH_SHORT).show();
@@ -82,7 +82,4 @@ public class Login extends AppCompatActivity {
         });
     }
 
-    private void updateUI() {
-        startActivity(new Intent(Login.this , profilepage.class));
-    }
 }

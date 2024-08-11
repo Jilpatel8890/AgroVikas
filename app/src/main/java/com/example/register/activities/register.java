@@ -96,7 +96,7 @@ public class register extends AppCompatActivity {
                         if(task.isSuccessful()){
                             Toast.makeText(register.this , "Account created!!!" , Toast.LENGTH_SHORT).show();
                             saveUserData();
-                            startActivity(new Intent(register.this , profilepage.class));
+                            startActivity(new Intent(register.this , home.class));
                         }
                         else {
                             String errorMessage = task.getException() != null ? task.getException().getMessage() : "Account creation failed";

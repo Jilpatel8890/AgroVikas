@@ -1,9 +1,9 @@
 package com.example.register.model;
 
 public class UserModel {
-    private String name;
-    private String email;
-    private String password;
+    private static String name;
+    private static String email;
+    private static String password;
 
     // Default constructor required for calls to DataSnapshot.getValue(UserModel.class)
     public UserModel() {
@@ -41,4 +41,9 @@ public class UserModel {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public static String[] getUser(){
+        return new String[]{name, email, password};
+    }
+
 }
